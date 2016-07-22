@@ -8,10 +8,13 @@ body, body * {
     font-weight: 400;
     line-height: 1.45;
 }
+
 header {
     width:100%;
     padding-top:30px;
 }
+
+/***** nav *****/
 nav {
     width:960px;
     border-top: solid 2px black;
@@ -31,13 +34,17 @@ nav ul {
 nav li {
     display: inline;
 }
+
 #content {
     width:960px;
+    min-height:575px;
     margin: 0 auto;
     border-left: solid 2px black;
     border-right: solid 2px black;
     padding-top: 50px;
 }
+
+/***** banner *****/
 #banner {
     width:920px;
     height:300px;
@@ -61,6 +68,59 @@ nav li {
 #events li {
     list-style: none;
 }
+
+/***** posts *****/
 #posts {
     clear: both;
+}
+#posts h2.heading {
+    text-align: center;
+}
+#posts-box-outter {
+    margin: 0 auto;
+    width:910px;
+}
+#posts-box-inner {
+    float:left;
+    width: 64%;
+}
+#post1 {
+    width: 250px;
+    float:left;
+    border: solid 2px black;
+}
+#post2 {
+    width: 250px;
+    float:right;
+    border: solid 2px black;
+}
+#post3 {
+    width: 250px;
+    float:right;
+    border: solid 2px black;
+}
+footer {
+    clear: both;
+    border-top: solid 2px black;
+}
+/***** footer ******/
+#footer-box-outter {
+    margin: 0 auto;
+    width:910px;
+}
+#footer-box-inner {
+    float:left;
+    width: 64%;
+}
+#about-us {
+    width: 250px;
+    float:left;
+}
+#footer-nav {
+    width: 250px;
+    float:right;
+}
+#copyright {
+    width: 250px;
+    float:right;
 }
