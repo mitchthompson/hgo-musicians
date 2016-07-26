@@ -1,5 +1,12 @@
 @charset "UTF-8";
+/* CSS Document */
 
+/* 
+Theme Name: Musicians of the Houston Grand Opera
+Author: Mitchell Thompson
+Description: This the theme for Musicians of the Houston Grand Opera
+Version: 1.0
+*/
 body, body * {
 	padding: 0;
 	margin: 0;
@@ -69,8 +76,8 @@ ul.nav a {
 #quotes {
     width:40%;
     float:left;
-    margin-top: 80px;
-    margin-left: 75px;
+    margin-top: 75px;
+    margin-left: 80px;
     font-family: "Times New Roman", Times, serif;
 }
 #quotes blockquote {
@@ -82,7 +89,7 @@ ul.nav a {
 }
 #quotes a {
     border: 1px solid black;
-    padding: 2% 8% 2% 8%;
+    padding: 2% 12% 2% 12%;
     text-decoration: none;
     background-color: white;
     color: inherit;
@@ -98,17 +105,34 @@ ul.nav a {
     margin-top:-15px;
     position: relative;
 }
-#events h2 {
-    font-size: 24pts;
+#events h2:first-of-type {
+    font-size: 28px;
+    text-align: center;
+    margin-top:5px;
+    margin-bottom: 5px;
 }
-#events li {
-    list-style: none;
+.upcoming-events {
+    width: 98%;
+    clear:both;
 }
-#events h3 {
-    font-size: 18pts;
+.date {
+    width:20%;
+    float:left;
+    margin-top:10px;
 }
-#events p {
-    font-size: 16pts;
+.info {
+    width: 80%;
+    float:right;
+    margin-bottom: 10px;
+}
+.upcoming-events h2 {
+    font-size: 28px;
+}
+.upcoming-events h3 {
+    font-size: 18px;
+}
+.upcoming-events p {
+    font-size: 14px;
 }
 #events a {
     border-top: 1px solid black;
@@ -210,4 +234,7 @@ footer {
     text-decoration: none;
     color: inherit;
     font-size:12pt;
+}
+footer a {
+    color: inherit;
 }
