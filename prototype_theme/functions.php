@@ -11,5 +11,5 @@ function register_menu(){
 // Changes default excerpt length to avoid breaking posts on front page.
 add_filter('excerpt_length', 'my_excerpt_length');
 function my_excerpt_length($length) {
-    return 10; 
+    return 15; 
 }
