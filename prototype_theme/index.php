@@ -34,25 +34,19 @@
         <div id="posts">
             <h2 class="heading">LATEST NEWS</h2>
             <div id="posts-box-outer">
-                <div id="posts-box-inner">
-                    <div id="post1" class="post">
-                        <h2>Lorem Ipsum Dolor</h2>
-                        <p>Nulla ultrices eget nisi sit amet aliquet. In pretium accumsan suscipit. Pellentesque volutpat nunc consectetur. Nulla ultrices eget nisi sit amet aliquet. In pretium accumsan suscipit. </p>
-                        <a href="#">READ MORE</a>
-                    </div><!--post1-->
-                    <div id="post2" class="post">
-                        <h2>Lorem Ipsum Dolor</h2>
-                        <p>Nulla ultrices eget nisi sit amet aliquet. In pretium accumsan suscipit. Pellentesque volutpat nunc consectetur. Nulla ultrices eget nisi sit amet aliquet. In pretium accumsan suscipit. </p>
-                        <a href="#">READ MORE</a>
-                    </div><!--post2-->
-                </div><!--posts-box-inner-->
-                <div id="post3" class="post">
-                    <h2>Lorem Ipsum Dolor</h2>
-                    <p>Nulla ultrices eget nisi sit amet aliquet. In pretium accumsan suscipit. Pellentesque volutpat nunc consectetur. Nulla ultrices eget nisi sit amet aliquet. In pretium accumsan suscipit. </p>
-                    <a href="#">READ MORE</a>
-                </div><!--post3-->
+
+                <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); // start the loop ?>
+                <!-- Page Content Goes Here -->
+                <div id="<?php the_title(); ?>" class="post">
+                    <h2><?php the_title(); ?></h2>
+                    <?php the_excerpt(); ?>
+                    <a href="<?php the_permalink(); ?>">READ MORE</a>
+                </div><!--post-->
+                <?php endwhile; endif; // end the loop ?>
+
             </div><!--posts-box-outer-->
         </div><!--posts-->
+        <small>index.php</small>
     </div><!--content-->
     
     <?php get_footer();?>
