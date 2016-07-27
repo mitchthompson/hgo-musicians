@@ -11,7 +11,11 @@
 <header>
     <nav>
     <img src="<?php bloginfo('template_directory') ?>/images/logo_placeholder.png" alt="logo.png">
-    <?php wp_nav_menu(array('menu'=>'Navigation', 'menu_class'=>'nav','theme_location' => 'Navigation'));?>
+    <?php wp_nav_menu(array('menu'=>'Navigation', 
+                            'container'  => 'ul',
+                            'menu_class'=>'nav',
+                            'theme_location' => 'Navigation'
+                           ));?>
     </nav>
 </header>
 <body <?php body_class();?> >

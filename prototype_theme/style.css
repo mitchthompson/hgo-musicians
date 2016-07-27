@@ -1,16 +1,9 @@
 @charset "UTF-8";
-/* CSS Document */
 
-/* 
-Theme Name: Musicians of the Houston Grand Opera
-Author: Mitchell Thompson
-Description: This the theme for Musicians of the Houston Grand Opera
-Version: 1.0
-*/
 body, body * {
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
     line-height: 1.4;
     font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
     font-size: 1em;
@@ -90,8 +83,8 @@ ul.nav a {
 #quotes {
     width:40%;
     float:left;
-    margin-top: 75px;
-    margin-left: 80px;
+    margin-top: 80px;
+    margin-left: 75px;
     font-family: "Times New Roman", Times, serif;
 }
 #quotes blockquote {
@@ -103,7 +96,7 @@ ul.nav a {
 }
 #quotes a {
     border: 1px solid black;
-    padding: 2% 12% 2% 12%;
+    padding: 2% 8% 2% 8%;
     text-decoration: none;
     background-color: white;
     color: inherit;
@@ -160,6 +153,7 @@ ul.nav a {
     bottom: 0;
     right: 0;
 }
+
 
 /***** posts *****/
 #posts {
@@ -239,7 +233,4 @@ footer {
     text-decoration: none;
     color: inherit;
     font-size:12pt;
-}
-footer a {
-    color: inherit;
 }
