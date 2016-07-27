@@ -34,7 +34,21 @@ nav img {
 }
 ul.nav {
     list-style-type: none;
+    display: flex;
 } 
+
+ul.nav li:first-of-type ul li{
+    display: none;
+}
+
+ul.nav li:first-of-type:hover ul li{
+    display: block;
+    background: white;
+    border: 2px black solid;
+    padding: 0;
+    margin: 0;
+}
+
 ul.nav li {
     display: inline;
     font-size: 16pt;
