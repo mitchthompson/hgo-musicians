@@ -132,29 +132,20 @@ ul.nav a {
     font-size: 1.6em;
     padding: 20px 0 20px 0;
 }
-#posts-box-outter {
+#posts-box-outer {
     margin: 0 auto;
     width:910px;
+    display: flex;
+    justify-content: space-around;
 }
-#posts-box-inner {
-    float:left;
-}
+
 .post {
     width:290px;
     height:250px;
     border: solid 2px black;
     padding: 10px;
 }
-#post1 {
-    float:left;
-}
-#post2 {
-    float:right;
-    margin-left: 20px; 
-}
-#post3 {
-    float:right;
-}
+
 .post a {
     border: 1px solid black;
     padding: 2% 8% 2% 8%;
