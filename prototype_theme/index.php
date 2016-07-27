@@ -33,7 +33,7 @@
         
         <div id="posts">
             <h2 class="heading">LATEST NEWS</h2>
-            <div id="posts-box-outter">
+            <div id="posts-box-outer">
                 <div id="posts-box-inner">
                     <div id="post1" class="post">
                         <h2>Lorem Ipsum Dolor</h2>
@@ -51,8 +51,11 @@
                     <p>Nulla ultrices eget nisi sit amet aliquet. In pretium accumsan suscipit. Pellentesque volutpat nunc consectetur. Nulla ultrices eget nisi sit amet aliquet. In pretium accumsan suscipit. </p>
                     <a href="#">READ MORE</a>
                 </div><!--post3-->
-            </div><!--posts-box-outter-->
+            </div><!--posts-box-outer-->
         </div><!--posts-->
     </div><!--content-->
     
-<?php get_footer(); ?>
+    <?php get_footer();?>
+
+    </body>
+</html>
