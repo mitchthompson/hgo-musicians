@@ -36,7 +36,7 @@
             <div id="posts-box-outer">
 
                 <!-- Page Content Goes Here -->
-                <?php $i = 1; if ( have_posts() ) : while ( $i <= 3 ) : the_post(); // start the loop ?>
+                <?php $i = 1; if ( have_posts() ) : while ( $i < 3 ) : the_post(); // start the loop ?>
                 <div id="<?php the_title(); ?>" class="post">
                     <h2><?php the_title(); ?></h2>
                     <?php the_excerpt(); ?>
