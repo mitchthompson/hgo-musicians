@@ -14,6 +14,26 @@ function my_excerpt_length($length) {
     return 10; 
 }
 
+add_action( 'widgets_init', 'my_register_sidebars' );
+
+function my_register_sidebars() {
+
+	/* Register the upcoming events "sidebar" */
+	register_sidebar(
+		array(
+			'id' => 'upcoming-events',
+			'name' => __( 'Events Sidebar' ),
+            'description' => __( 'Home page list of upcoming events' ),
+			'before_widget' => '<div id="%1$s" class="widget %2$s">',
+			'after_widget' => '</div>',
+			'before_title' => '<h3 class="widget-title">',
+			'after_title' => '</h3>'
+		)
+	);
+    
+
+}
+
 function add_flexslider() { // display attachment images as a flexslider gallery on single posting
      
     global $post; // don't forget to make this a global variable inside your function

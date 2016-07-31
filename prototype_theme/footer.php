@@ -20,6 +20,7 @@
                 <p>&copy; Musicians of the Houston Grand Opera 2016</p>
             </div><!--copyright-->
         </div><!--footer-box-outter-->
-
 </footer>
+</body>
+</html>
 <?php wp_footer()?>

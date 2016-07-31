@@ -112,36 +112,13 @@ ul.nav a {
     margin-top:-320px;
     position: relative;
 }
-#events h2:first-of-type {
+.widget-title {
     font-size: 28px;
     text-align: center;
     margin-top:5px;
     margin-bottom: 5px;
 }
-.upcoming-events {
-    width: 98%;
-    clear:both;
-}
-.date {
-    width:20%;
-    float:left;
-    margin-top:10px;
-}
-.info {
-    width: 80%;
-    float:right;
-    margin-bottom: 10px;
-}
-.upcoming-events h2 {
-    font-size: 28px;
-}
-.upcoming-events h3 {
-    font-size: 18px;
-}
-.upcoming-events p {
-    font-size: 14px;
-}
-#events a {
+a.event-calender {
     border-top: 1px solid black;
     border-left: 1px solid black;
     padding: 2% 8% 2% 8%;
@@ -155,30 +132,30 @@ ul.nav a {
 }
 
 
-/***** posts *****/
-#posts {
+/***** front-page "latest news" section *****/
+.front-page #posts {
     clear: both;
 }
-#posts h2.heading {
+.front-page #posts h2.heading {
     text-align: center;
     font-size: 1.6em;
     padding: 20px 0 20px 0;
 }
-#posts-box-outer {
+.front-page #posts-box-outer {
     margin: 0 auto;
     width:910px;
     display: flex;
     justify-content: space-around;
 }
 
-.post {
+.front-page .post {
     width:290px;
     height:250px;
     border: solid 2px black;
     padding: 10px;
 }
 
-.post a {
+.front-page .post a {
     border: 1px solid black;
     padding: 2% 8% 2% 8%;
     text-decoration: none;
@@ -186,11 +163,11 @@ ul.nav a {
     color: inherit;
     margin-left:60px;
 }
-.post p {
+.front-page .post p {
     margin-bottom: 30px;
     font-size: 15px;
 }
-.post h2 {
+.front-page .post h2 {
     font-size: 20px;
     margin-bottom: 10px;
 }
