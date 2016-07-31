@@ -2,7 +2,14 @@
     <div id="content" class="home">
         
         <div id="banner-box">
-            <div id="banner">
+            <div id="banner flexslider">
+                <!-- Begin Flex Slider -->
+                    <ul class="slides">
+                        <li>
+                            <img src="<?php bloginfo('template_directory') ?>/images/banner_placeholder.png" alt="banner placeholder" width="920" height="300"/>
+                        </li>
+                    </ul>
+                <!-- End Flex Slider -->
                 <div id="quotes">
                      <blockquote>"Best orchestra performance I have ever seen!"<span> - The Guardian</span></blockquote>
                      <a href="#">ABOUT US</a>

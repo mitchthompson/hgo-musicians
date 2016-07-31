@@ -73,19 +73,19 @@ ul.nav a {
 }
 
 /***** banner *****/
+#banner-box {
+    margin-left: 20px;
+}
 #banner {
     width:920px;
     height:300px;
-    margin-left:20px;
-    background-image: url(images/banner_placeholder.png);
-    background-size:cover;
 }
 #quotes {
     width:40%;
     float:left;
-    margin-top: 80px;
+    position: relative;
     margin-left: 75px;
-    font-family: "Times New Roman", Times, serif;
+    margin-top: -230px;
 }
 #quotes blockquote {
     font-size: 25px;
@@ -109,7 +109,7 @@ ul.nav a {
     border: solid 2px black;
     margin-right:30px;
     background-color: white;
-    margin-top:-15px;
+    margin-top:-320px;
     position: relative;
 }
 #events h2:first-of-type {

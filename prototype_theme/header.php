@@ -5,7 +5,11 @@
     <title><?php wp_title()?></title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/flexslider.css" type="text/css">
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script src="<?php bloginfo('template_directory') ?>/scripts/scripts.js"></script>
+    <script src="<?php bloginfo('template_directory') ?>/scripts/jquery.flexslider.js"></script>
     <?php wp_head();?>
 </head>
 <header>
