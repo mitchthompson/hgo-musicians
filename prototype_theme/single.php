@@ -12,4 +12,3 @@
 </div><!-- End Content -->
     
     <?php get_footer();?>
-

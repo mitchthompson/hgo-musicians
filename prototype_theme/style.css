@@ -172,7 +172,13 @@ a.event-calender {
     margin-bottom: 10px;
 }
 
-/***** footer ******/
+/**** single post page *****/
+.post{
+    width: 80%;
+    margin: auto;
+}
+
+/**** footer *****/
 footer {
     clear: both;
     height: 150px;
