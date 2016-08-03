@@ -8,7 +8,7 @@
                 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); // start the loop ?>
                 <!-- Page Content Goes Here -->
                 <div id="<?php the_title(); ?>" class="post">
-                    <h2><?php the_title(); ?></h2>
+                    <h3><?php the_title(); ?></h3>
                     <?php the_excerpt(); ?>
                     <a href="<?php the_permalink(); ?>">READ MORE</a>
                 </div><!--post-->

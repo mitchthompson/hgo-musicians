@@ -188,6 +188,11 @@ a.event-calender {
     margin-bottom: 10px;
 }
 
+/*** blog roll page ***/
+.blog h2{
+    font-style:bold;
+}
+
 /**** single post page *****/
 .post{
     width: 80%;
