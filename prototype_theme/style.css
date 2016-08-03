@@ -188,6 +188,7 @@ a.event-calender {
     margin-bottom: 10px;
 }
 
+<<<<<<< HEAD
 /*** blog roll page ***/
 .blog h2{
     font-style:bold;
@@ -200,6 +201,24 @@ a.event-calender {
 }
 
 /**** footer *****/
+=======
+/***** performances page *****/
+.performances {
+    overflow: auto;
+    margin-top:10px;
+}
+#calendar {
+    float:left;
+    width:40%;
+}
+.performances img {
+    float:right;
+    margin-top:-30px;
+    margin-right:3%
+}
+
+/***** footer ******/
+>>>>>>> performances-page
 footer {
     clear: both;
     min-height: 170px;
