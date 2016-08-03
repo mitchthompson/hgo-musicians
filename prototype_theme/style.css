@@ -36,8 +36,6 @@ nav img {
     width:200px;
     height:135px;
     float:left;
-    border: solid 1px black;
-    background: white;
 }
 ul.nav {
     list-style-type: none;
@@ -60,6 +58,7 @@ ul.nav li:first-of-type:hover ul li{
     line-height: 30px;
     opacity: .8;
 }
+
 ul.nav li:hover ul a {
     margin-left: 10px;
 }
