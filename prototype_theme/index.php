@@ -36,7 +36,7 @@
 
             </div><!--posts-box-outer-->
         </div><!--posts-->
-        <small>front-page.php</small>
+        <small>index.php</small>
     </div><!--content-->
     
     <?php get_footer();?>
