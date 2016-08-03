@@ -67,6 +67,7 @@ ul.nav li {
     line-height: 150px;
     margin-left: 65px;
 }
+
 ul.nav li:first-of-type {
     margin-left: 30px;
 }
@@ -115,6 +116,11 @@ ul.nav a {
     margin-left:95px;
     font-size: 14px;
 }
+#quotes a:hover{
+    background-color:white;
+    color:#1B1464;
+    border: 2px #1B1464 solid;
+}
 #events {
     height:330px;
     width:390px;
@@ -142,6 +148,11 @@ a.event-calender {
     right: -8px;
 }
 
+a.event-calender:hover{
+    background-color:white;
+    color:#1B1464;
+    border: 2px #1B1464 solid;
+}
 
 /***** front-page "latest news" section *****/
 .front-page #posts {
@@ -178,6 +189,13 @@ a.event-calender {
     left: 0;
 
 }
+
+.front-page .post a:hover{
+    background-color:white;
+    color:#1B1464;
+    border: 2px #1B1464 solid;
+}
+
 .front-page .post p {
     margin-bottom: 30px;
     font-size: 15px;
