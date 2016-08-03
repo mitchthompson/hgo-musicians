@@ -1,11 +1,14 @@
 @charset "UTF-8";
-
+@font-face{
+    font-family: CaviarDreams;
+    src: url ('fonts/CaviarDreams.ttf');
+}
 body, body * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     line-height: 1.4;
-    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-family: CaviarDreams, Arial, Helvetica Neue, Helvetica, sans-serif;
     font-size: 1em;
     font-weight: 100;
 }

@@ -5,7 +5,7 @@
                 <!-- Begin Flex Slider -->
                     <ul class="slides">
                         <li>
-                            <img src="<?php bloginfo('template_directory') ?>/images/banner_placeholder.png" alt="banner placeholder" width="920" height="300"/>
+                            <img src="<?php bloginfo('template_directory') ?>/images/banner.png" alt="banner" width="920" height="300"/>
                         </li>
                     </ul>
                 <!-- End Flex Slider -->
