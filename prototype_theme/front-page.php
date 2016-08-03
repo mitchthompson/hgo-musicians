@@ -29,15 +29,22 @@
                     $posts = get_posts($args);
                 ?>
                 <?php foreach ($posts as $post){ //loop through posts and render ?>
-                <div id="<?php the_title(); ?>" class="post">
-                    <h2><?php the_title(); // get the page or posting title ?></h2> 
-                    <?php the_excerpt(); ?>
-                    <a href="<?php the_permalink(); ?>">READ MORE</a>
+                    <?php
+                        // echo '<pre>';
+                        // echo var_dump($posts);
+                        // echo '<pre>';
+                     ?>
+                    <div id="<?php the_title(); ?>" class="post">
+                        <h2><?php the_title(); // get the page or posting title ?></h2> 
+                        <div id="excerpt"><?php 
+                            $str = $post->post_content;
+                            echo substr($str,0,127).'...'; ?>
+                            </div><!--excerpt-->
+                        <a href="<?php the_permalink(); ?>">READ MORE</a>
                     </div><!--post-->
                 <?php } ?>
             </div><!--posts-box-outer-->
         </div><!--posts-->
-        <small>front-page.php</small>
     </div><!--content-->
     
     <?php get_footer();?>

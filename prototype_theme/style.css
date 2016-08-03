@@ -1,7 +1,12 @@
 @charset "UTF-8";
 @font-face{
     font-family: CaviarDreams;
-    src: url ('fonts/CaviarDreams.ttf');
+    src: url ('fonts/CaviarDreams.ttf') format('truetype');
+    font-weight: normal;
+}
+@font-face{
+    font-family: CaviarDreamsBold;
+    src: url ('fonts/CaviarDreams_Bold.ttf');
 }
 body, body * {
     padding: 0;
@@ -38,6 +43,10 @@ ul.nav {
     list-style-type: none;
     display: flex;
 } 
+
+ul.nav li{
+    width: 20%;
+}
 ul.nav li:first-of-type ul li{
     display: none;
 }
@@ -88,21 +97,24 @@ ul.nav a {
     position: relative;
     margin-left: 75px;
     margin-top: -230px;
+
 }
 #quotes blockquote {
     font-size: 25px;
     margin-bottom: 30px;
+    color: white;
+    text-shadow: 2px 2px black;
 }
 #quotes blockquote span {
     font-size: 18px;
 }
 #quotes a {
-    border: 1px solid black;
-    padding: 2% 8% 2% 8%;
+    padding: 1% 14% 1% 14%;
     text-decoration: none;
-    background-color: white;
-    color: inherit;
+    background-color: #1B1464;
+    color: white;
     margin-left:95px;
+    font-size: 14px;
 }
 #events {
     height:330px;
@@ -121,11 +133,10 @@ ul.nav a {
     margin-bottom: 5px;
 }
 a.event-calender {
-    padding: 2% 8% 2% 8%;
+    padding: 1% 4% 1% 4%;
     color: white;
     text-decoration: none;
     background-color: #1B1464;
-    color: inherit;
     float:right;
     position: absolute;
     bottom: -8px;
@@ -139,8 +150,9 @@ a.event-calender {
 }
 .front-page #posts h2.heading {
     text-align: center;
-    font-size: 1.6em;
+    font-size: 1.4em;
     padding: 20px 0 20px 0;
+    color: #1B1464;
 }
 .front-page #posts-box-outer {
     margin: 0 auto;
@@ -152,17 +164,20 @@ a.event-calender {
 .front-page .post {
     width:290px;
     height:250px;
-    border: solid 2px black;
     padding: 10px;
+    position: relative;
 }
 
 .front-page .post a {
-    border: 1px solid black;
     padding: 2% 8% 2% 8%;
     text-decoration: none;
-    background-color: white;
-    color: inherit;
+    background-color: #1B1464;
+    color: white;
     margin-left:60px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
 }
 .front-page .post p {
     margin-bottom: 30px;
