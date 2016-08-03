@@ -17,6 +17,11 @@
             </div><!--footer-box-inner-->
             <div id="copyright">
                 <a href="#">FOLLOW US</a>
+                <div id="social">
+                    <a href="#"><img src="<?php bloginfo('template_directory') ?>/images/facebook.svg" alt="facebook.svg"></a>
+                    <a href="#"><img src="<?php bloginfo('template_directory') ?>/images/twitter.svg" alt="twitter.svg"></a>
+                    <a href="#"><img src="<?php bloginfo('template_directory') ?>/images/instagram.svg" alt="instagram.svg"></a>
+                </div><!--social-->
                 <p>&copy; Musicians of the Houston Grand Opera 2016</p>
             </div><!--copyright-->
         </div><!--footer-box-outter-->

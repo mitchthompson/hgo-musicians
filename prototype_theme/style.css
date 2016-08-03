@@ -213,16 +213,24 @@ footer {
 #about-us {
     width: 260px;
     float:left;
+    
 }
+
+#about-us a h2{
+    color: #1B1464;
+}
+
 #footer-nav {
     width: 250px;
     float:right;
     margin-right: 20px;
 }
 #copyright {
-    width: 250px;
+    width: 300px;
     float:right;
-    margin-right: 40px;
+}
+#copyright p{
+    font-size: 0.8em;
 }
 #footer-nav li {
     list-style: none;
