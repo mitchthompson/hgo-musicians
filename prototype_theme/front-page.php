@@ -24,16 +24,17 @@
         <div id="posts">
             <h2 class="heading">LATEST NEWS</h2>
             <div id="posts-box-outer">
-
-                <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); // start the loop ?>
-                <!-- Page Content Goes Here -->
+                <?php //retrieve 3 most recent posts 
+                    $args = array('numberposts' => 3);
+                    $posts = get_posts($args);
+                ?>
+                <?php foreach ($posts as $post){ //loop through posts and render ?>
                 <div id="<?php the_title(); ?>" class="post">
-                    <h2><?php the_title(); ?></h2>
+                    <h2><?php the_title(); // get the page or posting title ?></h2> 
                     <?php the_excerpt(); ?>
                     <a href="<?php the_permalink(); ?>">READ MORE</a>
-                </div><!--post-->
-                <?php endwhile; endif; // end the loop ?>
-
+                    </div><!--post-->
+                <?php } ?>
             </div><!--posts-box-outer-->
         </div><!--posts-->
         <small>front-page.php</small>
