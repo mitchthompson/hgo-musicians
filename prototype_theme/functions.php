@@ -83,8 +83,6 @@ function get_child_pages() {
 	wp_reset_query(); // reset query
         
 }
-<<<<<<< Updated upstream
-
 /**
  * Filter the except length to 100 characters instead of the 55 default.
  *
@@ -95,6 +93,6 @@ function wpdocs_custom_excerpt_length( $length ) {
     return 100;
 }
 add_filter( 'excerpt_length', 'wpdocs_custom_excerpt_length', 999 );
-=======
+
 add_theme_support( 'post-thumbnails' );
->>>>>>> Stashed changes
+
