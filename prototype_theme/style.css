@@ -12,18 +12,56 @@ body, body * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    line-height: 1.4;
-    font-family: CaviarDreams, Arial, Helvetica Neue, Helvetica, sans-serif;
-    font-size: 1em;
-    font-weight: 100;
+    font-family: "avenir-book",  Arial, Helvetica Neue, Helvetica, sans-serif;
+    color:#000000;
+    line-height: 150%;
+    font-size: 18px;
 }
+h1, h2, h3, h4, h5, h6 {
+    font-family: "CaviarDreams", sans-serif;
+}
+h1 {
+    font-size:36pt;
+    color:#0071bc;
+    line-height: 100%;
+}
+h2 {
+    font-size:30pt;
+    color:#0071bc;
+    line-height: 100%;
+}
+h3 {
+    font-size:24pt;
+    color:#264e75;
+    line-height: 100%;
+}
+h4 {
+    font-size:20pt;
+    color:#264e75;
+    line-height: 100%;
+}
+h5 {
+    font-size:18pt;
+    color:#264e75;
+    line-height: 100%;
+}
+h6 {
+    font-size:16pt;
+    color:#264e75;
+    line-height: 100%;
+}
+blockquote h2 {
+    color:#fff;
+    text-shadow: 3px 3px #000;
+}
+
 
 header {
     width:100%;
     margin-top: 1px;
     height: 150px;
-    background: #F2F2F2;
-    border-bottom: solid 15px #BDCCD4;
+    background: #eeeeee;
+    border-bottom: solid 15px rgba(189,204,212,.75);
 }
 
 /***** nav *****/
@@ -32,10 +70,11 @@ nav {
     height: 150px;
     margin: 0 auto;
 }
-nav img {
+.logo {
     width:200px;
     height:135px;
     float:left;
+    padding-bottom: 5px;
 }
 ul.nav {
     list-style-type: none;
@@ -50,17 +89,13 @@ ul.nav li:first-of-type ul li{
 }
 ul.nav li:first-of-type:hover ul li{
     display: block;
-    background: #BDCCD4;
+    background: rgba(189,204,212,.75);
     margin-top:-45px;
     margin-left:-5px;
     margin-bottom: 45px;
     width:200%;
     line-height: 30px;
     opacity: .8;
-}
-
-ul.nav li:hover ul a {
-    margin-left: 10px;
 }
 ul.nav li {
     display: inline;
@@ -73,7 +108,13 @@ ul.nav li:first-of-type {
 }
 ul.nav a {
     text-decoration: none;
-    color:inherit;
+    line-height: 100%;
+    font-size: 18px;
+    color:#000000;
+}
+ul.nav li:hover ul a {
+    margin-left: 10px;
+    color:#264e75;
 }
 
 #content {
@@ -217,8 +258,6 @@ a.event-calender {
 /**** single post page *****/
 
 
-/**** footer *****/
-
 /***** performances page *****/
 .performances {
     overflow: auto;
@@ -235,10 +274,9 @@ a.event-calender {
 }
 
 /***** footer ******/
-
 footer {
     clear: both;
-    min-height: 170px;
+    min-height: 190px;
     background: #F2F2F2;
     border-top: solid 15px #BDCCD4;
 }
@@ -253,14 +291,21 @@ footer {
 }
 #about-us {
     width: 260px;
-    float:left;
-    
+    float:left;   
 }
-
-#about-us a h2{
-    color: #1B1464;
+footer-title {
+    font-size: 16px;
+    line-height: 100%;
 }
-
+footer p{
+    font-size: 14px;
+    line-height: 120%;
+}
+#social img {
+    width:40px;
+    height:40px;
+    padding 10px 5px;
+}
 #footer-nav {
     width: 250px;
     float:right;
@@ -270,12 +315,9 @@ footer {
     width: 300px;
     float:right;
 }
-#copyright p{
-    font-size: 0.8em;
-}
 #footer-nav li {
     list-style: none;
-    margin-bottom: 5px;
+    margin-bottom: 3px;
 }
 #footer-nav a {
     text-decoration: none;

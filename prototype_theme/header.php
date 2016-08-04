@@ -14,7 +14,7 @@
 </head>
 <header>
     <nav>
-    <a href="<?php bloginfo('url'); ?>"><img src="<?php bloginfo('template_directory') ?>/images/logo.png" alt="logo.png"></a>
+    <a href="<?php bloginfo('url'); ?>"><img class="logo" src="<?php bloginfo('template_directory') ?>/images/logo.png" alt="logo.png"></a>
     <?php wp_nav_menu(array('menu'=>'Navigation', 
                             'container'  => 'ul',
                             'menu_class'=>'nav',
