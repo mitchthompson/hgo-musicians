@@ -4,7 +4,6 @@
         <div id="posts">
             <h2 class="heading">Blog</h2>
             <div id="posts-box-outer">
-
                 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); // start the loop ?>
                 <!-- Page Content Goes Here -->
                 <div id="<?php the_title(); ?>" class="post">

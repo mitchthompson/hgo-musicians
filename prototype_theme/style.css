@@ -229,7 +229,6 @@ a.event-calender {
     margin-bottom: 10px;
 }
 
-<<<<<<< HEAD
 /*** blog roll page ***/
 .blog h2{
     font-style:bold;
@@ -240,6 +239,7 @@ a.event-calender {
     width: 80%;
     margin: auto;
 }
+
 /***** performances page *****/
 .performances {
     overflow: auto;
