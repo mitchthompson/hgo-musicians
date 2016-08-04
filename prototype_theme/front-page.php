@@ -10,7 +10,7 @@
                     </ul>
                 <!-- End Flex Slider -->
                 <div id="quotes">
-                     <blockquote>"Best orchestra performance I have ever seen!"<span> - The Guardian</span></blockquote>
+                     <blockquote>"Best orchestra performance I have ever seen!"- The Guardian</blockquote>
                      <a href="#">ABOUT US</a>
                 </div><!--quotes-->
                 
