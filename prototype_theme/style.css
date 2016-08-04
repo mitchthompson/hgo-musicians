@@ -54,8 +54,6 @@ blockquote h2 {
     color:#fff;
     text-shadow: 3px 3px #000;
 }
-
-
 header {
     width:100%;
     margin-top: 1px;
@@ -161,15 +159,16 @@ ul.nav li:hover ul a {
     height:330px;
     width:390px;
     float:right;
-    border: solid 8px #BDCCD4;
+    border: solid 10px rgba(189,204,212,.75);
     margin-right:30px;
     background-color: #F2F2F2;
     margin-top:-320px;
     position: relative;
 }
 .widget-title {
-    font-size: 28px;
+    font-size: 24pt;
     text-align: center;
+    line-height: 100%;
     margin-top:5px;
     margin-bottom: 5px;
 }
@@ -180,8 +179,8 @@ a.event-calender {
     background-color: #1B1464;
     float:right;
     position: absolute;
-    bottom: -8px;
-    right: -8px;
+    bottom: -10px;
+    right: -10px;
 }
 
 /***** front-page "latest news" section *****/
@@ -219,10 +218,10 @@ a.event-calender {
     left: 0;
 
 }
-
 .front-page .post p {
     margin-bottom: 30px;
-    font-size: 15px;
+    font-size: 16pt;
+    line-height: 120%;
 }
 .front-page .post h2 {
     font-size: 20px;
