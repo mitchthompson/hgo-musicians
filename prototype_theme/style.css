@@ -189,15 +189,33 @@ a.event-calender {
 }
 
 /*** blog roll page ***/
-.blog h2{
+#posts{
+    width: 75%;
+    margin:auto;
+}
+.blog h3{
     font-style:bold;
 }
-
-/**** single post page *****/
 .post{
     width: 80%;
     margin: auto;
+    margin-bottom:10%;
+    margin-top:3%;
 }
+#post-title{
+    margin-bottom:2%;
+}
+#read-more{
+    text-decoration:none;
+    color:white;
+    background: #002868;
+    float:right;
+    padding: 1px 3px 1px 3px;
+    margin-top: 2%;
+}
+
+/**** single post page *****/
+
 
 /**** footer *****/
 

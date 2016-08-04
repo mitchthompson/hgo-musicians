@@ -83,3 +83,14 @@ function get_child_pages() {
 	wp_reset_query(); // reset query
         
 }
+
+/**
+ * Filter the except length to 100 characters instead of the 55 default.
+ *
+ * @param int $length Excerpt length.
+ * @return int (Maybe) modified excerpt length.
+ */
+function wpdocs_custom_excerpt_length( $length ) {
+    return 100;
+}
+add_filter( 'excerpt_length', 'wpdocs_custom_excerpt_length', 999 );
