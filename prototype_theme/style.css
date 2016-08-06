@@ -88,16 +88,17 @@ ul.nav li:first-of-type ul li{
 ul.nav li:first-of-type:hover ul li{
     display: block;
     background: rgba(189,204,212,.75);
-    margin-top:-45px;
-    margin-left:-5px;
-    margin-bottom: 45px;
+}
+ul.nav .sub-menu li{
     width:200%;
-    line-height: 30px;
-    opacity: .8;
+    margin-left:0;
+    margin-top:0;
+    line-height: 40px;
 }
 ul.nav li {
+    margin-left: 50px;
+    margin-top:60px;
     line-height: 150px;
-    margin-left: 65px;
 }
 ul.nav a {
     text-decoration: none;
@@ -284,11 +285,6 @@ a.event-calender {
 .contact p {
     font-size: 16pt;
     margin-top:8px;
-}
-p.wpcf7-form-control .wpcf7-submit {
-    padding: 1% 4% 1% 4%;
-    color: white;
-    background-color: #1B1464;
 }
 
 /***** footer ******/
