@@ -78,10 +78,6 @@ ul.nav {
     list-style-type: none;
     display: flex;
 } 
-
-ul.nav li{
-    width: 20%;
-}
 ul.nav li:first-of-type ul li{
     display: none;
 }
@@ -96,14 +92,15 @@ ul.nav li:first-of-type:hover ul li{
     opacity: .8;
 }
 ul.nav li {
-    display: inline;
     line-height: 150px;
     margin-left: 65px;
 }
+/*
 
 ul.nav li:first-of-type {
     margin-left: 30px;
 }
+*/
 ul.nav a {
     text-decoration: none;
     line-height: 100%;
@@ -230,7 +227,7 @@ a.event-calender {
 
 /*** blog roll page ***/
 #posts{
-    width: 75%;
+    width: 95%;
     margin:auto;
 }
 .blog h3{
@@ -301,8 +298,8 @@ footer p{
     line-height: 120%;
 }
 #social img {
-    width:40px;
-    height:40px;
+    width:50px;
+    height:50px;
     padding: 10px 5px;
 }
 #footer-nav {

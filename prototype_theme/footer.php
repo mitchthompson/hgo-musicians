@@ -6,13 +6,11 @@
                     <p>Nulla ultrices eget nisi sit amet aliquet. In pretium accumsan suscipit. Pellentesque volutpat nunc consectetur. In pretium accumsan suscipit.</p>
                 </div><!--about-us-->
                 <div id="footer-nav">
-                     <ul>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Musicians</a></li>
-                        <li><a href="#">Perfomances</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Donate</a></li>
-                    </ul>
+                    <?php wp_nav_menu(array('menu'=>'Footer Navigation', 
+                            'container'  => 'ul',
+                            'menu_class'=>'nav-footer',
+                            'theme_location' => 'Navigation'
+                           ));?>
                 </div><!--footer-nav-->
             </div><!--footer-box-inner-->
             <div id="copyright">

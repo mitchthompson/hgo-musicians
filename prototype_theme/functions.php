@@ -6,6 +6,7 @@ add_theme_support('automatic-feed-links');
 add_action('init','register_menu');
 function register_menu(){
     register_nav_menu('main-menu',__('Navigation'));
+    register_nav_menu('footer-menu',__('Footer Navigation'));
 }
 
 add_action( 'widgets_init', 'my_register_sidebars' );
