@@ -272,6 +272,25 @@ a.event-calender {
     margin-right:3%
 }
 
+/**** contact page *****/
+.contact {
+    width:100%;
+    background: rgba(189,204,212,.75);
+    padding-left:5%;
+    padding-top:20px;
+    padding-bottom: 20px;
+    margin-top: 10px;
+}
+.contact p {
+    font-size: 16pt;
+    margin-top:8px;
+}
+p.wpcf7-form-control .wpcf7-submit {
+    padding: 1% 4% 1% 4%;
+    color: white;
+    background-color: #1B1464;
+}
+
 /***** footer ******/
 footer {
     clear: both;
