@@ -8,14 +8,18 @@
     font-family: CaviarDreamsBold;
     src: url ('fonts/CaviarDreams_Bold.ttf');
 }
+@font-face{
+    font-family: Avenir;
+    src: url ('fonts/Avenir.ttc');
+}
 body, body * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "avenir-book",  Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-family: "Avenir", sans-serif;
     color:#000000;
     line-height: 150%;
-    font-size: 18px;
+    font-size: 17px;
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: "CaviarDreams", sans-serif;
@@ -95,12 +99,6 @@ ul.nav li {
     line-height: 150px;
     margin-left: 65px;
 }
-/*
-
-ul.nav li:first-of-type {
-    margin-left: 30px;
-}
-*/
 ul.nav a {
     text-decoration: none;
     line-height: 100%;
@@ -162,12 +160,17 @@ ul.nav li:hover ul a {
     margin-top:-320px;
     position: relative;
 }
+/***** calender widget *****/
 .widget-title {
-    font-size: 24pt;
+    font-size: 16pt;
     text-align: center;
+    font-weight: lighter;
     line-height: 100%;
     margin-top:5px;
     margin-bottom: 5px;
+}
+.ai1ec-weekday {
+    display:none;
 }
 a.event-calender {
     padding: 1% 4% 1% 4%;
@@ -187,8 +190,8 @@ a.event-calender {
 .front-page #posts h2.heading {
     text-align: center;
     font-size: 1.4em;
-    padding: 20px 0 20px 0;
-    color: #1B1464;
+    padding: 35px 0 5px 0;
+    font-weight:normal;
 }
 .front-page #posts-box-outer {
     margin: 0 auto;
@@ -217,12 +220,12 @@ a.event-calender {
 }
 .front-page .post p {
     margin-bottom: 30px;
-    font-size: 16pt;
+    font-size: 15pt;
     line-height: 120%;
 }
 .front-page .post h2 {
     font-size: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 /*** blog roll page ***/
