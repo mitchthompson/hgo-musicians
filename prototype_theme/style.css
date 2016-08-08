@@ -111,18 +111,12 @@ ul.nav li:hover ul a {
     color:#264e75;
 }
 
-#content {
+.front-page {
     width:960px;
     min-height:715px;
     margin: 0 auto;
     padding-top: 40px;
 }
-@media (max-width: 960px) {
-    #content h2 {
-    margin-left: 2%;
-}
-}
-
 /***** front-page banner *****/
 #banner-box {
     margin-left: 20px;
@@ -233,7 +227,10 @@ a.event-calender {
     font-size: 20px;
     margin-bottom: 20px;
 }
-
+/*** page.php ***/
+.page h2 {
+    margin-top:20px;
+}
 /*** blog roll page ***/
 #posts{
     width: 95%;
