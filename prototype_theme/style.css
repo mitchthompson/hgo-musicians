@@ -229,7 +229,8 @@ a.event-calender {
 }
 /*** page.php ***/
 .page h2 {
-    margin-top:20px;
+    margin-top:30px;
+    margin-bottom: 10px;
 }
 /*** blog roll page ***/
 #posts{
@@ -261,18 +262,17 @@ a.event-calender {
 
 
 /***** performances page *****/
+
 .performances {
-    overflow: auto;
-    margin-top:10px;
-}
-#calendar {
-    float:left;
-    width:40%;
-}
-.performances img {
     float:right;
     margin-top:-30px;
     margin-right:3%
+}
+@media (max-width: 960px) {
+    .performances {
+    float:none;
+    margin-top:30px;
+    }
 }
 
 /**** contact page *****/
