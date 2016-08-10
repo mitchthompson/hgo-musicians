@@ -24,9 +24,8 @@
         <div id="posts">
             <h2 class="heading">LATEST NEWS</h2>
             <div id="posts-box-outer">
-
-                <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); // start the loop ?>
                 <!-- Page Content Goes Here -->
+                <?php if ( query_posts("showposts=1") ) : while ( have_posts() ) : the_post(); // start the loop ?>
                 <div id="<?php the_title(); ?>" class="post">
                     <h2><?php the_title(); ?></h2>
                     <?php the_excerpt(); ?>
