@@ -21,16 +21,16 @@ body, body * {
     line-height: 150%;
     font-size: 17px;
 }
-#content li {
+#content .page li {
 	margin:0 0 5px .2em;
 }
-#content ul {
+#content .page ul {
 	margin-left:1.25em;
 }
-#content ol {
+#content .page ol {
 	margin-left: 1.75em;
 }
-#content dt {
+#content .page dt {
 	margin:0 .5em 5px .5em;
 }
 dd {
@@ -262,7 +262,7 @@ a.event-calender {
 /*** blog roll page ***/
 #posts{
     width: 95%;
-    margin:auto;
+    margin:0 auto;
 }
 .blog h3{
     font-style:bold;
