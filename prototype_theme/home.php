@@ -8,7 +8,7 @@
                 <!-- Page Content Goes Here -->
                 <div id="<?php the_title(); ?>" class="post">
                     <div id="post-title">
-                        <h3><?php the_title(); ?></h3>
+                        <a href="<?php the_permalink(); ?>"><h3><?php the_title(); ?></h3></a>
                         <small><?php the_time('F jS, Y') ?> by <?php the_author() ?></small>
                     </div><!--post-title-->
                     <div id="post-body">
@@ -26,7 +26,6 @@
 
             </div><!--posts-box-outer-->
         </div><!--posts-->
-        <small>home.php</small>
     </div><!--content-->
     
     <?php get_footer();?>

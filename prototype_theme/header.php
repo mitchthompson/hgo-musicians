@@ -14,6 +14,9 @@
     
     <link rel="stylesheet" href="<?php bloginfo('template_directory') ?>/flexslider.css" type="text/css">
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>">
+    <link rel="icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico" />
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="<?php bloginfo('template_directory') ?>/scripts/scripts.js"></script>
     <script src="<?php bloginfo('template_directory') ?>/scripts/jquery.flexslider.js"></script>
