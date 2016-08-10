@@ -21,8 +21,28 @@ body, body * {
     line-height: 150%;
     font-size: 17px;
 }
+#content li {
+	margin:0 0 5px .2em;
+}
+#content ul {
+	margin-left:1.25em;
+}
+#content ol {
+	margin-left: 1.75em;
+}
+#content dt {
+	margin:0 .5em 5px .5em;
+}
+dd {
+	margin-left:1.25em;
+	margin-bottom:5px;
+}
+p {
+	margin:1.2em .5em 1.2em 0;
+}
 h1, h2, h3, h4, h5, h6 {
     font-family: "CaviarDreams", sans-serif;
+    margin: 1.414em 0 20px 0;
 }
 h1 {
     font-size:36pt;
@@ -68,7 +88,7 @@ header {
 
 /***** nav *****/
 nav {
-    width:920px;
+    max-width:920px;
     height: 150px;
     margin: 0 auto;
 }
@@ -109,6 +129,9 @@ ul.nav a {
 ul.nav li:hover ul a {
     margin-left: 10px;
     color:#264e75;
+}
+#content {
+    max-width:960px;
 }
 
 .front-page {
@@ -182,15 +205,18 @@ a.event-calender {
     bottom: -10px;
     right: -10px;
 }
+#sidebar {
+    margin-left: 0;
+}
 
 /***** front-page "latest news" section *****/
 .front-page #posts {
     clear: both;
+    margin-top: 50px;
 }
 .front-page #posts h2.heading {
     text-align: center;
     font-size: 1.4em;
-    padding: 35px 0 5px 0;
     font-weight:normal;
 }
 .front-page #posts-box-outer {
@@ -205,6 +231,7 @@ a.event-calender {
     height:250px;
     padding: 10px;
     position: relative;
+    margin-top:0;
 }
 
 .front-page .post a {
@@ -227,10 +254,10 @@ a.event-calender {
     font-size: 20px;
     margin-bottom: 20px;
 }
+
 /*** page.php ***/
-.page h2 {
-    margin-top:30px;
-    margin-bottom: 10px;
+.page blockquote {
+	padding:10px 6% 10px 6%;
 }
 /*** blog roll page ***/
 #posts{
@@ -322,6 +349,9 @@ footer {
     width: 260px;
     float:left;   
 }
+#about-us a {
+    text-decoration: underline;
+}
 footer-title {
     font-size: 16px;
     line-height: 100%;
@@ -329,11 +359,16 @@ footer-title {
 footer p{
     font-size: 14px;
     line-height: 120%;
+    margin-top:5px;
+}
+#copyright a {
+    text-decoration: underline;
 }
 #social img {
     width:50px;
     height:50px;
     padding: 10px 5px;
+    margin-left: -3%;
 }
 #footer-nav {
     width: 250px;

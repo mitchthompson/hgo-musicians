@@ -14,7 +14,7 @@
                 </div><!--footer-nav-->
             </div><!--footer-box-inner-->
             <div id="copyright">
-                <a class="footer-title" href="#">FOLLOW US</a>
+                <a href="">FOLLOW US</a>
                 <div id="social">
                     <a href="#"><img src="<?php bloginfo('template_directory') ?>/images/facebook.svg" alt="facebook.svg"></a>
                     <a href="#"><img src="<?php bloginfo('template_directory') ?>/images/twitter.svg" alt="twitter.svg"></a>
