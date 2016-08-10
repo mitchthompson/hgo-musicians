@@ -286,6 +286,11 @@ a.event-calender {
     margin-top: 2%;
 }
 
+img.attachment-medium-large.size-medium-large.wp-post-image {
+    width: 100%;
+    height: auto;
+}
+
 /**** single post page *****/
 
 

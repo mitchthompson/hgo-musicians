@@ -25,12 +25,12 @@
             <h2 class="heading">LATEST NEWS</h2>
             <div id="posts-box-outer">
                 <!-- Page Content Goes Here -->
-                <?php if ( query_posts("showposts=1") ) : while ( have_posts() ) : the_post(); // start the loop ?>
-                <div id="<?php the_title(); ?>" class="post">
-                    <h2><?php the_title(); ?></h2>
-                    <?php the_excerpt(); ?>
-                    <a href="<?php the_permalink(); ?>">READ MORE</a>
-                </div><!--post-->
+                <?php if ( query_posts("showposts=3") ) : while ( have_posts() ) : the_post(); // start the loop ?>
+                    <div id="<?php the_title(); ?>" class="post">
+                        <h2><?php the_title(); ?></h2>
+                        <?php the_content(); ?>
+                        <a href="<?php the_permalink(); ?>">READ MORE</a>
+                    </div><!--post-->
                 <?php endwhile; endif; // end the loop ?>
 
             </div><!--posts-box-outer-->
