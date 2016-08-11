@@ -8,15 +8,11 @@
     font-family: CaviarDreamsBold;
     src: url ('fonts/CaviarDreams_Bold.ttf');
 }
-@font-face{
-    font-family: Avenir;
-    src: url ('fonts/Avenir.ttc');
-}
 body, body * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "Avenir", sans-serif;
+    font-family: 'Avenir', sans-serif;
     color:#000000;
     line-height: 150%;
     font-size: 17px;
@@ -125,6 +121,7 @@ ul.nav a {
     line-height: 100%;
     font-size: 18px;
     color:#000000;
+    font-family: "CaviarDreams", sans-serif;
 }
 ul.nav li:hover ul a {
     margin-left: 10px;
@@ -222,7 +219,7 @@ a.event-calender {
 }
 .front-page #posts-box-outer {
     margin: 0 auto;
-    width:910px;
+    width:960px;
     display: flex;
     justify-content: space-around;
 }
@@ -336,6 +333,7 @@ img.attachment-medium-large.size-medium-large.wp-post-image {
 }
 
 /***** footer ******/
+
 footer {
     clear: both;
     min-height: 190px;
@@ -343,17 +341,11 @@ footer {
     border-top: solid 15px #BDCCD4;
 }
 #footer-box-outter {
-    margin: 0 auto;
-    width:910px;
+    margin:auto;
+    max-width:940px;
     padding-top: 10px;
-}
-#footer-box-inner {
-    float:left;
-    width: 64%;
-}
-#about-us {
-    width: 260px;
-    float:left;   
+    padding-bottom: 10px;
+    padding-left:3%;
 }
 #about-us a {
     text-decoration: underline;
@@ -370,20 +362,14 @@ footer p{
 #copyright a {
     text-decoration: underline;
 }
+#copyright p {
+    line-height:30%;
+}
 #social img {
     width:50px;
     height:50px;
-    padding: 10px 5px;
-    margin-left: -3%;
-}
-#footer-nav {
-    width: 250px;
-    float:right;
-    margin-right: 20px;
-}
-#copyright {
-    width: 300px;
-    float:right;
+    padding: 10px 2px;
+    margin-left:-2%;
 }
 #footer-nav li {
     list-style: none;
@@ -393,4 +379,29 @@ footer p{
     text-decoration: none;
     color: inherit;
     font-size:12pt;
+}
+#disclaimer {
+    padding-top: 15px;
+    background: #BDCCD4;
+    width:100%;
+    clear: both;
+}
+#disclaimer .container {
+    max-width:940px;
+}
+@media (max-width: 760px) {
+    #about-us {
+        margin-bottom: 30px;
+    }
+    #footer-nav {
+        margin-bottom: 30px;
+    }
+    #footer-box-outter {
+        padding-left:5%;
+    }
+}
+@media (max-width: 460px){
+     #footer-box-outter {
+        padding-left:7%;
+    }
 }
