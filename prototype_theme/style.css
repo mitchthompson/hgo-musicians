@@ -128,58 +128,51 @@ ul.nav li:hover ul a {
     color:#264e75;
 }
 #content {
-    max-width:960px;
     margin:auto;
+    max-width: 1200px;
 }
 
 .front-page {
-    width:960px;
-    min-height:715px;
-    margin: 0 auto;
     padding-top: 40px;
+    margin:0 auto;
 }
 /***** front-page banner *****/
 #banner-box {
-    margin-left: 20px;
+    background-image: url(images/banner.png);
+    background-size: cover;
+    overflow: hidden;
+    margin-bottom: 10px;
+    padding-right: 3%;
 }
-#banner {
-    width:920px;
-    height:300px;
-}
-#quotes {
-    width:40%;
-    float:left;
-    position: relative;
-    margin-left: 75px;
-    margin-top: -230px;
-
-}
-#quotes blockquote {
+#quotes p {
+    max-width: 400px;
     font-size: 25px;
+    margin: 0 auto;
+    margin-top:70px;
     margin-bottom: 30px;
     color: white;
     text-shadow: 2px 2px black;
-}
-#quotes blockquote span {
-    font-size: 18px;
 }
 #quotes a {
     padding: 1% 14% 1% 14%;
     text-decoration: none;
     background-color: #1B1464;
     color: white;
-    margin-left:95px;
     font-size: 14px;
 }
 #events {
-    height:330px;
-    width:390px;
-    float:right;
     border: solid 10px rgba(189,204,212,.75);
-    margin-right:30px;
     background-color: #F2F2F2;
-    margin-top:-320px;
-    position: relative;
+}
+@media (max-width: 990px){
+    #banner-box {
+        padding-right: 2%;
+        background-size:contain;
+    }
+    #events {
+        margin-top: 20px;
+    }
+
 }
 /***** calender widget *****/
 .widget-title {
@@ -206,53 +199,57 @@ a.event-calender {
 #sidebar {
     margin-left: 0;
 }
-
-/***** front-page "latest news" section *****/
-.front-page #posts {
-    clear: both;
-    margin-top: 50px;
+.ai1ec-agenda-widget-view .ai1ec-date-title, .ai1ec-agenda-view .ai1ec-date-title {
+border:none !important;  
+background-image: none !important; 
+text-shadow: none !important; 
 }
-.front-page #posts h2.heading {
+.ai1ec-month {
+background: none !important; 
+color: #000 !important;
+text-shadow: none !important; 
+}
+
+.ai1ec-agenda-widget-view .ai1ec-event > a {
+border: none !important; 
+background: none !important;
+}
+
+.ai1ec-agenda-widget-view .ai1ec-date, .ai1ec-agenda-view .ai1ec-date {
+background: none !important; 
+}
+/***** front-page "latest news" section *****/
+#front-page-posts {
+    padding-top:50px;
+    margin-bottom: 30px;
+}
+.post-box {
+    margin-top: 10px;
+    padding-bottom: 40px;
+}
+#front-page-posts h2.heading {
     text-align: center;
     font-size: 1.4em;
     font-weight:normal;
 }
-.front-page #posts-box-outer {
-    margin: 0 auto;
-    width:960px;
-    display: flex;
-    justify-content: space-around;
-}
-
-.front-page .post {
-    width:290px;
-    height:250px;
-    padding: 10px;
-    position: relative;
-    margin-top:0;
-}
-
-.front-page .post a {
-    padding: 2% 8% 2% 8%;
-    text-decoration: none;
-    background-color: #1B1464;
-    color: white;
-    margin-left:60px;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-
-}
-.front-page .post p {
+#front-page-posts p {
     margin-bottom: 30px;
     font-size: 15pt;
     line-height: 120%;
 }
-.front-page .post h2 {
+#front-page-posts h2 {
     font-size: 20px;
     margin-bottom: 20px;
 }
+.post-box a {
+    padding: 2% 8% 2% 8%;
+    text-decoration: none;
+    background-color: #1B1464;
+    color: white;
+}
+@media (max-width: 760px){
 
+}
 /*** page.php ***/
 .page blockquote {
 	padding:10px 6% 10px 6%;
@@ -342,7 +339,7 @@ footer {
 }
 #footer-box-outter {
     margin:auto;
-    max-width:940px;
+    max-width:1200px;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left:3%;
@@ -383,12 +380,10 @@ footer p{
 #disclaimer {
     padding-top: 15px;
     background: #BDCCD4;
-    width:100%;
+/*    width:100%;*/
     clear: both;
 }
-#disclaimer .container {
-    max-width:940px;
-}
+
 @media (max-width: 760px) {
     #about-us {
         margin-bottom: 30px;
