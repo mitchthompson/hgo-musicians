@@ -1,5 +1,5 @@
 <footer>
-    <div id="footer-box-outter">
+    <div class="container" id="footer-box-outter">
     <div id="container">
         <div class="row">
             <div class="footer-title col-sm-4" id="about-us">
@@ -28,8 +28,10 @@
     </div><!--footer-box-outter-->   
     <div id="disclaimer">
         <div class="container">
+            <div class="row">
             <div class="col-md-12">
                 <p>This website is owned and operated by the musicians of the Houston Grand Opera Orchestra.  The site represents only the views, opinions, and positions of the musicians of the Houston Grand Opera Orchestra and their unions (American Federation of Musicians, Musicians' Local Union 65-699), and does not represent the views, opinions, and positions of the Houston Grand Opera Association.</p>
+            </div>
             </div>
         </div>
     </div>

@@ -4,13 +4,13 @@
             <div class="row">
                 <div class="col-md-12" id="banner-box">
                     <div class="row">
-                        <div class="col-md-7" id="quotes">
+                        <div class="col-md-7 col-sm-12" id="quotes">
                             <p>"Best orchestra performance I have ever seen!" - The Guardian</p>
                             <div class="text-center">
                                 <a href="<?php echo get_page_link(4); ?>">ABOUT US</a>
                             </div>
                         </div><!--quotes-->
-                        <div class="col-md-5" id="events">
+                        <div class="col-md-5 col-sm-12" id="events">
                             <?php get_sidebar(); ?>
                             <a class="event-calender" href="<?php echo get_page_link(10);?>">EVENT CALENDAR</a>
                         </div><!--events-->

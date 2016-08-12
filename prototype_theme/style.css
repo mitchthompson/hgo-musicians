@@ -83,9 +83,9 @@ header {
 }
 
 /***** nav *****/
+
 nav {
-    max-width:920px;
-    height: 150px;
+    max-width:1200px;
     margin: 0 auto;
 }
 .logo {
@@ -112,7 +112,7 @@ ul.nav .sub-menu li{
     line-height: 40px;
 }
 ul.nav li {
-    margin-left: 50px;
+    margin-left: 7%;
     margin-top:60px;
     line-height: 150px;
 }
@@ -127,6 +127,28 @@ ul.nav li:hover ul a {
     margin-left: 10px;
     color:#264e75;
 }
+
+@media (min-width: 1200px) {
+    ul.nav li  {
+        margin-left: 9%;
+    }
+}
+@media (max-width: 990px) {
+    ul.nav {
+        display:none;
+    }
+    #toggle {
+		display: block;
+		}
+}
+@media (min-width: 989px) {
+   ul.nav {
+        display:flex;
+    }
+}
+
+
+
 #content {
     margin:auto;
     max-width: 1200px;
@@ -140,8 +162,8 @@ ul.nav li:hover ul a {
 #banner-box {
     background-image: url(images/banner.png);
     background-size: cover;
-    overflow: hidden;
-    margin-bottom: 10px;
+    overflow: visible;
+    margin-bottom: 20px;
     padding-right: 3%;
 }
 #quotes p {
@@ -163,16 +185,28 @@ ul.nav li:hover ul a {
 #events {
     border: solid 10px rgba(189,204,212,.75);
     background-color: #F2F2F2;
+    margin-top: -15px;
+    margin-bottom: -15px;
+    position: relative;
 }
 @media (max-width: 990px){
     #banner-box {
         padding-right: 2%;
-        background-size:contain;
+        background-image: none;
     }
     #events {
         margin-top: 20px;
     }
-
+    #quotes {
+        background-image: url(images/banner.png);
+        background-size: cover;
+        padding-bottom: 35px;
+    }
+}
+@media (max-width: 768px) {
+    #quotes {
+        padding-top:15px;
+    }
 }
 /***** calender widget *****/
 .widget-title {
@@ -338,11 +372,9 @@ footer {
     border-top: solid 15px #BDCCD4;
 }
 #footer-box-outter {
-    margin:auto;
-    max-width:1200px;
+        max-width:1200px;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-left:3%;
 }
 #about-us a {
     text-decoration: underline;
@@ -380,7 +412,6 @@ footer p{
 #disclaimer {
     padding-top: 15px;
     background: #BDCCD4;
-/*    width:100%;*/
     clear: both;
 }
 
@@ -390,13 +421,5 @@ footer p{
     }
     #footer-nav {
         margin-bottom: 30px;
-    }
-    #footer-box-outter {
-        padding-left:5%;
-    }
-}
-@media (max-width: 460px){
-     #footer-box-outter {
-        padding-left:7%;
     }
 }

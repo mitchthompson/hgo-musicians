@@ -71,3 +71,7 @@ add_filter( 'excerpt_length', 'wpdocs_custom_excerpt_length', 999 );
 
 add_theme_support( 'post-thumbnails' );
 
+// Register custom navigation walker
+require_once('wp_bootstrap_navwalker.php');
+
+

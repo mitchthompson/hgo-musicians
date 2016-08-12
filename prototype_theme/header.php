@@ -18,19 +18,23 @@
     <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico" />
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="<?php bloginfo('template_directory') ?>/scripts/scripts.js"></script>
     <script src="<?php bloginfo('template_directory') ?>/scripts/jquery.flexslider.js"></script>
     <?php wp_head();?>
 </head>
 <header>
-    <nav>
-    <a href="<?php bloginfo('url'); ?>"><img class="logo" src="<?php bloginfo('template_directory') ?>/images/logo.png" alt="logo.png"></a>
-    <?php wp_nav_menu(array('menu'=>'Navigation', 
-                            'container'  => 'ul',
-                            'menu_class'=>'nav',
-                            'theme_location' => 'Navigation'
-                           ));?>
+
+    <nav class="container">
+            <a href="<?php bloginfo('url'); ?>"><img class="logo" src="<?php bloginfo('template_directory') ?>/images/logo.png" alt="logo.png"></a>
+            
+            <?php wp_nav_menu(array('menu'=>'Navigation', 
+                                    'container'  => 'ul',
+                                    'menu_class'=>'nav',
+                                    'theme_location' => 'Navigation'
+                                   ));?>
+        
     </nav>
+    
+    
 </header>
 <body <?php body_class();?> >
     
