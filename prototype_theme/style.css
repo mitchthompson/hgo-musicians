@@ -76,6 +76,7 @@ blockquote h2 {
 }
 header {
     width:100%;
+    height: 155px;
     margin-top: 1px;
     background: #eeeeee;
     border-bottom: solid 15px rgba(189,204,212,.75);
