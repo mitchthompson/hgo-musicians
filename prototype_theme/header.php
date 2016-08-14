@@ -24,14 +24,13 @@
 <header>
 
     <nav class="container">
-            <a href="<?php bloginfo('url'); ?>"><img class="logo" src="<?php bloginfo('template_directory') ?>/images/logo.png" alt="logo.png"></a>
-            
-            <?php wp_nav_menu(array('menu'=>'Navigation', 
-                                    'container'  => 'ul',
-                                    'menu_class'=>'nav',
-                                    'theme_location' => 'Navigation'
-                                   ));?>
+        <a href="<?php bloginfo('url'); ?>"><img class="logo img-responsive" src="<?php bloginfo('template_directory') ?>/images/logo.png" alt="logo.png"></a>
         
+        <?php wp_nav_menu(array('menu'=>'Navigation', 
+                'container'  => 'ul',
+                'menu_class'=>'nav',
+                'theme_location' => 'Navigation'
+               ));?>
     </nav>
     
     

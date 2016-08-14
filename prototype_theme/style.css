@@ -1,11 +1,11 @@
 @charset "UTF-8";
 @font-face{
-    font-family: CaviarDreams;
+    font-family: "CaviarDreams";
     src: url ('fonts/CaviarDreams.ttf') format('truetype');
     font-weight: normal;
 }
 @font-face{
-    font-family: CaviarDreamsBold;
+    font-family: "CaviarDreamsBold";
     src: url ('fonts/CaviarDreams_Bold.ttf');
 }
 body, body * {
@@ -17,16 +17,16 @@ body, body * {
     line-height: 150%;
     font-size: 17px;
 }
-#content .page li {
+#content .page li, .single li  {
 	margin:0 0 5px .2em;
 }
-#content .page ul {
+#content .page ul, .single ul {
 	margin-left:1.25em;
 }
-#content .page ol {
+#content .page ol, .single ol {
 	margin-left: 1.75em;
 }
-#content .page dt {
+#content .page dt, .single dt {
 	margin:0 .5em 5px .5em;
 }
 dd {
@@ -77,7 +77,6 @@ blockquote h2 {
 header {
     width:100%;
     margin-top: 1px;
-    height: 150px;
     background: #eeeeee;
     border-bottom: solid 15px rgba(189,204,212,.75);
 }
@@ -89,8 +88,8 @@ nav {
     margin: 0 auto;
 }
 .logo {
-    width:200px;
-    height:135px;
+    max-width:200px;
+    max-height:135px;
     float:left;
     padding-bottom: 5px;
 }
@@ -134,14 +133,16 @@ ul.nav li:hover ul a {
     }
 }
 @media (max-width: 990px) {
+    ul.nav li {
+    margin-left: 4%;
+    }
+}
+@media (max-width: 820px) {
     ul.nav {
         display:none;
     }
-    #toggle {
-		display: block;
-		}
 }
-@media (min-width: 989px) {
+@media (min-width: 819px) {
    ul.nav {
         display:flex;
     }
