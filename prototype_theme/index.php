@@ -28,7 +28,7 @@
                 <?php if ( query_posts("showposts=3") ) : while ( have_posts() ) : the_post(); // start the loop ?>
                     <div id="<?php the_title(); ?>" class="post">
                         <h2><?php the_title(); ?></h2>
-                        <?php the_content(); ?>
+                        <?php echo get_the_excerpt(); ?>
                         <a href="<?php the_permalink(); ?>">READ MORE</a>
                     </div><!--post-->
                 <?php endwhile; endif; // end the loop ?>
