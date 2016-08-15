@@ -1,6 +1,9 @@
 <?php
 
 add_theme_support('automatic-feed-links');
+add_theme_support( 'post-thumbnails' );
+add_theme_support( 'title-tag' );
+
 
 // Registers Navigation menu
 add_action('init','register_menu');
@@ -68,7 +71,5 @@ function wpdocs_custom_excerpt_length( $length ) {
     return 100;
 }
 add_filter( 'excerpt_length', 'wpdocs_custom_excerpt_length', 999 );
-
-add_theme_support( 'post-thumbnails' );
 
 

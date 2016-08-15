@@ -1,4 +1,15 @@
 @charset "UTF-8";
+/* CSS Document */
+
+/*
+Theme Name: Musicians of the Houston Grand Opera Orchestra 2016
+Author: Mitchell Thompson, Sam Mchaney, Starr Harris, Dini Nadzaruddin
+Author URI: http://www.mitchlthompson.com/
+Description: This is the default theme for Musicians of the Houston Grand Opera Orchestra
+Version: 1.0
+*/
+
+/******* Fonts ********/
 @font-face{
     font-family: "CaviarDreams";
     src: url ('fonts/CaviarDreams.ttf') format('truetype');
@@ -8,6 +19,7 @@
     font-family: "CaviarDreamsBold";
     src: url ('fonts/CaviarDreams_Bold.ttf');
 }
+
 body, body * {
     padding: 0;
     margin: 0;
@@ -74,6 +86,8 @@ blockquote h2 {
     color:#fff;
     text-shadow: 3px 3px #000;
 }
+
+
 header {
     width:100%;
     height: 155px;
@@ -121,7 +135,6 @@ ul.nav a {
     line-height: 100%;
     font-size: 18px;
     color:#000000;
-    font-family: "CaviarDreams", sans-serif;
 }
 ul.nav li:hover ul a {
     margin-left: 10px;
@@ -148,7 +161,6 @@ ul.nav li:hover ul a {
         display:flex;
     }
 }
-
 
 
 #content {
@@ -355,9 +367,9 @@ font-size: 15px !important; /* might need to add !important on this one */
 
 /**** contact page *****/
 .contact {
-    width:100%;
+/*    width:100%;*/
     background: rgba(189,204,212,.75);
-    padding-left:9%;
+    padding-left:7%;
     padding-top:20px;
     padding-bottom: 20px;
     margin-top: 20px;
@@ -373,6 +385,11 @@ font-size: 15px !important; /* might need to add !important on this one */
     color: white;
     font-size: 14pt;
     margin-top: 15px;
+}
+@media (max-width: 990px) {
+    .contact {
+        padding-left:3%;
+    }
 }
 @media (max-width: 460px) {
     .contact {
