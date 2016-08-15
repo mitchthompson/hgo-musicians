@@ -338,6 +338,21 @@ img.attachment-medium-large.size-medium-large.wp-post-image {
     }
 }
 
+/* remove border on event page */
+.ai1ec-agenda-view .ai1ec-event { 
+border: none !important; 
+}
+
+/* change background-color of ticket button */ 
+.ai1ec-event[data-ticket-url] .ai1ec-sas-action-tickets, .ai1ec-popover.ai1ec-has-tickets-button .ai1ec-sas-action-tickets {
+background-color: white !important;
+}
+
+/* change the font size of the event location. not really sure if this will work. worth a try! */ 
+.ai1ec-event-location {
+font-size: 15px !important; /* might need to add !important on this one */
+}
+
 /**** contact page *****/
 .contact {
     width:100%;
