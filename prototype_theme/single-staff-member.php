@@ -1,5 +1,6 @@
 <?php get_header(); ?>
 <div id="content" class="single">
+<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); // start the loop ?>
     <?php
 		global $post;
 		$custom 	= get_post_custom();
@@ -24,7 +25,8 @@
 		}
 		$email_mailto = '<a href="mailto:'.antispambot( $email ).'" title="Email '.$name.'">'.antispambot( $email ).'</a>';
 ?>
-    <small>single.php</small>
+<?php endwhile; endif; // end the loop ?>
+    <small>single-staff-member.php</small>
 </div><!-- End Content -->
     
     <?php get_footer();?>
