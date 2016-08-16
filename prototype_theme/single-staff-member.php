@@ -24,7 +24,14 @@
 			$photo = '';
 		}
 		$email_mailto = '<a href="mailto:'.antispambot( $email ).'" title="Email '.$name.'">'.antispambot( $email ).'</a>';
-?>
+		
+		echo $custom;
+		echo $name;
+		echo $name_slug;
+		echo $title;
+
+	?>
+	
 <?php endwhile; endif; // end the loop ?>
     <small>single-staff-member.php</small>
 </div><!-- End Content -->
