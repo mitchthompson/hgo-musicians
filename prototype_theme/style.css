@@ -461,8 +461,11 @@ footer p{
 /** single musican page **/
 #musician_bio {
     display:inline-block;
-    width: 40%;
     margin-left: 3%;
+}
+
+#musician_bio h3{
+    margin-top: 0px;
 }
 
 #content.single {
@@ -483,7 +486,8 @@ img.staff-member-photo {
     img.staff-member-photo{
         width: 80%;
         height: auto;
-        margin-left: 10%; 
+        margin-left: 10%;
+        margin-top: 3%;
     }
     #content.single{
         display:initial;
