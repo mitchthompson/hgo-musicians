@@ -27,7 +27,7 @@
 			   echo $photo;
 			   echo '<div id="musician_bio">';
 			   echo '<h3>'.$name.'</h3>';
-			   echo '<em>'.$title.'</em>';
+			   echo '<h4>'.$title.'</h4>';
 			   echo $bio;
 			   echo '</div>'
 	?>
