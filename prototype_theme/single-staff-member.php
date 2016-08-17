@@ -18,7 +18,7 @@
 		if(has_post_thumbnail()){
 
 			$photo_url = wp_get_attachment_url( get_post_thumbnail_id() );
-			$photo = '<img class="staff-member-photo" src="'.$photo_url.'" alt = "'.$title.'">';
+			$photo = '<img class="staff-member-photo img-responsive" src="'.$photo_url.'" alt = "'.$title.'">';
 		}else{
 			$photo_url = '';
 			$photo = '';
@@ -27,7 +27,7 @@
 			   echo $photo;
 			   echo '<div id="musician_bio">';
 			   echo '<h3>'.$name.'</h3>';
-			   echo '<h4>'.$title.'</h4>';
+			   echo '<h4 class="text-capitalize">'.$title.'</h4>';
 			   echo $bio;
 			   echo '</div>'
 	?>
