@@ -361,14 +361,12 @@ border: none !important;
 background-color: white !important;
 }
 
-/* change the font size of the event location. not really sure if this will work. worth a try! */ 
 .ai1ec-event-location {
-font-size: 15px !important; /* might need to add !important on this one */
+font-size: 15px !important; 
 }
 
 /**** contact page *****/
 .contact {
-/*    width:100%;*/
     background: rgba(189,204,212,.75);
     padding-left:7%;
     padding-top:20px;
@@ -475,8 +473,10 @@ footer p{
 }
 
 #content.single {
+/*
     margin:auto;
     max-width: 1000px;
+*/
     display: flex;
     margin-top: 3%;
     margin-bottom: 3%;
