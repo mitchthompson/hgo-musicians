@@ -25,7 +25,7 @@
 		}
 		$email_mailto = '<a href="mailto:'.antispambot( $email ).'" title="Email '.$name.'">'.antispambot( $email ).'</a>';
 			   echo $photo;
-			   echo '<div id="musician_bio">';
+			   echo '<div class="container" id="musician_bio">';
 			   echo '<h3>'.$name.'</h3>';
 			   echo '<h4 class="text-capitalize">'.$title.'</h4>';
 			   echo $bio;
