@@ -457,3 +457,10 @@ footer p{
         margin-bottom: 30px;
     }
 }
+
+/** single musican page **/
+#musician_bio {
+    float:right;
+    width: 40%;
+}
+
