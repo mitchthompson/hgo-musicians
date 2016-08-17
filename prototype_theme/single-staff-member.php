@@ -33,7 +33,6 @@
 	?>
 	
 <?php endwhile; endif; // end the loop ?>
-    <small>single-staff-member.php</small>
 </div><!-- End Content -->
     
     <?php get_footer();?>
