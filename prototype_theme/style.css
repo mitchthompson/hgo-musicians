@@ -475,4 +475,19 @@ footer p{
 
 img.staff-member-photo {
     margin-left: auto;
+    height: 540px;
+    width: auto;
+}
+
+@media (max-width: 760px) {
+    img.staff-member-photo{
+        padding-left: 3%;
+        padding-top: 3%;
+    }
+    #content.single{
+        display:initial;
+    }
+    #musician_bio{
+        display: block;
+    }
 }
