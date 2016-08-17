@@ -24,12 +24,12 @@
 			$photo = '';
 		}
 		$email_mailto = '<a href="mailto:'.antispambot( $email ).'" title="Email '.$name.'">'.antispambot( $email ).'</a>';
-		
-		echo $custom;
-		echo $name;
-		echo $name_slug;
-		echo $title;
-
+			   echo $photo;
+			   echo '<div id="musician_bio>';
+			   echo '<h3>'.$name.'</h3>';
+			   echo '<em>'.$title.'</em>';
+			   echo $bio;
+			   echo '</div>'
 	?>
 	
 <?php endwhile; endif; // end the loop ?>
