@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<div id="content" class="single">
+<div id="content" class="single container">
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); // start the loop ?>
     <?php
 		global $post;
@@ -24,12 +24,12 @@
 			$photo = '';
 		}
 		$email_mailto = '<a href="mailto:'.antispambot( $email ).'" title="Email '.$name.'">'.antispambot( $email ).'</a>';
-			   echo '<div class="container">' . $photo;
+			   echo $photo;
 			   echo '<div id="musician_bio">';
 			   echo '<h3>'.$name.'</h3>';
 			   echo '<h4 class="text-capitalize">'.$title.'</h4>';
 			   echo $bio;
-			   echo '</div></div>'
+			   echo '</div>'
 	?>
 	
 <?php endwhile; endif; // end the loop ?>
