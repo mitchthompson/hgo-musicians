@@ -175,7 +175,7 @@ ul.nav li:hover ul a {
 }
 /***** front-page banner *****/
 #banner-box {
-    background-image: url(images/banner.png);
+    background-image: url(images/hgocoverimage.jpg);
     background-size: cover;
     overflow: visible;
     margin-bottom: 20px;
@@ -213,7 +213,7 @@ ul.nav li:hover ul a {
         margin-top: 20px;
     }
     #quotes {
-        background-image: url(images/banner.png);
+        background-image: url(images/hgocoverimage.jpg);
         background-size: cover;
         padding-bottom: 35px;
     }
@@ -363,6 +363,11 @@ background-color: white !important;
 
 .ai1ec-event-location {
 font-size: 15px !important; 
+}
+.ai1ec-agenda-view .ai1ec-event .ai1ec-sas-actions {
+     float: none !important
+     margin: 0 10px; 
+    margin-left: 300px !important; 
 }
 
 /**** contact page *****/
