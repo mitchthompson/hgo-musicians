@@ -4,7 +4,7 @@
         <div class="row">
             <div class="footer-title col-sm-4" id="about-us">
                 <a href="<?php echo get_page_link(4); ?>">ABOUT US</a>
-                <p>Nulla ultrices eget nisi sit amet aliquet. In pretium accumsan suscipit. Pellentesque volutpat nunc consectetur. In pretium accumsan suscipit.</p>
+                <p>The Houston Grand Opera Orchestra is one of the premiere opera orchestras in North America. Founded in 1955, it has grown from a small regional orchestra to forty-nine members. The opera company has been performing in its home theater, the Wortham Center, since 1987, and performs six mainstage operas per year, along with other smaller productions both in the Wortham Theater and throughout city of Houston. </p>
             </div><!--about-us-->
             <div class="col-sm-4" id="footer-nav">
                 <?php wp_nav_menu(array('menu'=>'Footer Navigation', 
