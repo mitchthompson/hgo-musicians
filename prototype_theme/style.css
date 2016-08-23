@@ -479,7 +479,7 @@ footer p{
     margin-bottom: 3%;
 }
 
-@media (max-width: 760px) {
+@media (max-width: 991px) {
     #musician_bio{
         padding-top: 3%;
     }
