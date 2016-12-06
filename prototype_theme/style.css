@@ -269,7 +269,7 @@ background: none !important;
 }
 
 .ai1ec-agenda-widget-view{
-    width:100% !important;
+    max-width:100% !important;
 }
 
 .ai1ec-date{
