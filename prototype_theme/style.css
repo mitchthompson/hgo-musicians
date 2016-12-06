@@ -201,9 +201,9 @@ ul.nav li:hover ul a {
 #events {
     border: solid 10px rgba(189,204,212,.75);
     background-color: #F2F2F2;
-    margin-top: -15px;
     margin-bottom: -15px;
     position: relative;
+    padding-bottom: 20px;
 }
 @media (max-width: 990px){
     #banner-box {
