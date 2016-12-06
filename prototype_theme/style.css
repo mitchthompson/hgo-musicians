@@ -175,7 +175,7 @@ ul.nav li:hover ul a {
 }
 /***** front-page banner *****/
 #banner-box {
-    background-image: url(images/hgocoverimage.jpg);
+    background-image: url(images/banner4.png);
     background-size: cover;
     overflow: visible;
     margin-bottom: 20px;
