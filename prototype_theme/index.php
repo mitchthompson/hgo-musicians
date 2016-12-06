@@ -13,11 +13,11 @@
                     </div><!--row-->
                 </div><!--banner-box-->
 
-                <div class="col-md-5 col-sm-12" id="events">
+                <div class="col-md-12 col-sm-12" id="events">
                     <?php get_sidebar(); ?>
                     <a class="event-calender" href="<?php echo get_page_link(10);?>">EVENT CALENDAR</a>
                 </div><!--events-->
-                
+
                 <div class="container" id="front-page-posts">
                     <div class="row">
                         <div class="col-xs-12">

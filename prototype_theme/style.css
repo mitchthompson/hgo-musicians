@@ -267,6 +267,15 @@ background: none !important;
 .ai1ec-agenda-widget-view .ai1ec-date, .ai1ec-agenda-view .ai1ec-date {
 background: none !important; 
 }
+
+.ai1ec-agenda-widget-view{
+    width:100%;
+}
+
+.ai1ec-date{
+    width: 33%;
+    display: inline-block;
+}
 /***** front-page "latest news" section *****/
 #front-page-posts {
     padding-top:50px;
