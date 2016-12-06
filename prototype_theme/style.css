@@ -209,6 +209,7 @@ ul.nav li:hover ul a {
     #banner-box {
         padding-right: 2%;
         background-image: none;
+        padding-bottom: 0px;
     }
     #events {
         margin-top: 20px;
@@ -276,6 +277,13 @@ background: none !important;
 .ai1ec-date{
     width: 33% !important;
     display: inline-block !important;
+}
+
+@media(max-width:990px){
+    .ai1ec-date{
+        width: 100% !important;
+        display: block !important;
+    }
 }
 /***** front-page "latest news" section *****/
 #front-page-posts {
