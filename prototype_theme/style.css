@@ -269,12 +269,12 @@ background: none !important;
 }
 
 .ai1ec-agenda-widget-view{
-    width:100%;
+    width:100% !important;
 }
 
 .ai1ec-date{
-    width: 33%;
-    display: inline-block;
+    width: 33% !important;
+    display: inline-block !important;
 }
 /***** front-page "latest news" section *****/
 #front-page-posts {
