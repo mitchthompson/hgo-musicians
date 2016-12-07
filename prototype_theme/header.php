@@ -2,6 +2,7 @@
 <html <?php language_attributes();?>>
 <head lang="en">
     <meta charset="<?php bloginfo('charset'); ?>">
+    <meta http-equiv="cache-control" content="no-cache">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title><?php wp_title(bloginfo('name'))?></title>
